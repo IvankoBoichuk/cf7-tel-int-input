@@ -1,0 +1,27 @@
+/* :root {
+    --iti-flag-width: 20px;
+} */
+.iti__selected-country[type="button"] {
+    padding: 0;
+    border-radius: var(--wd-form-brd-radius) 2px 2px var(--wd-form-brd-radius);
+    overflow: hidden;
+}
+.iti__country {
+    margin-bottom: 0;
+}
+.iti__country-container {
+    --iti-border-width: 0px
+}
+.iti__selected-country-primary {
+    --iti-spacer-horizontal: 15px;
+}
+.iti__dropdown-content {
+    border-radius: var(--wd-form-brd-radius)
+}
+.wpcf7-form .row {
+    --wd-f-basis: 210px;
+}
+.iti__country-name {
+    color: grey;
+    width: 100%;
+}
