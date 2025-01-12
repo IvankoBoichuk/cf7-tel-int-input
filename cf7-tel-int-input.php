@@ -16,6 +16,7 @@ function cf7_tel_int_input() {
     $theme_version = wp_get_theme()->get('Version');
     wp_enqueue_style( "int-tel-input", "https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css", array(), $theme_version );
     wp_enqueue_script( "int-tel-input", "https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js", array(), $theme_version );
+    wp_enqueue_script( "imask", "https://unpkg.com/imask", array(), $theme_version );
     wp_enqueue_style( 'int-tel-style', plugins_url( '/style.css', __FILE__ ), array(), $theme_version );
     wp_enqueue_script( 'int-tel-script', plugins_url( '/script.js', __FILE__ ), array( 'int-tel-input' ), $theme_version );
 }
